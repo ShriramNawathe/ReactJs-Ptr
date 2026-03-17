@@ -1,19 +1,19 @@
 
 import './App.css';
-import _1About from './screens/_1About';
-import _2Contact from './screens/_2Contact';
+import About from './screens/About';
+import Contact from './screens/Contact';
 
 function App() {
   return (
     // <h1>Hi</h1>   
-    // <_1About /> 
+    // <About />
     <div>
-      <_1About />
+      <About />
       <br/>
       <br/>
       <br/>
       <br/>
-      <_2Contact />
+      <Contact />
     </div>
 
 
@@ -25,3 +25,4 @@ export default App;
 
 
 // return always give only one element,if want to return more then wrap in div
+// about and contact importing from screens folder.
