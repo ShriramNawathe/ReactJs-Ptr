@@ -10,6 +10,9 @@ function App() {
     <div>
       <About />
       <br/>
+      <br/>
+      <br/>
+      <br/>
       <Contact />
     </div>
 

@@ -10,7 +10,6 @@ function About() {
     // </div>
     <div>
       <Titlename />
-      <br/>
       <Unorderedlist />
     </div>
   )
