@@ -1,7 +1,7 @@
 
 import './App.css';
 import About from './screens/About';
-import Contact from './screens/Contact';
+// import Contact from './screens/Contact';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <br/>
       <br/>
       <br/>
-      <Contact />
+      {/* <Contact /> */}
     </div>
 
 
