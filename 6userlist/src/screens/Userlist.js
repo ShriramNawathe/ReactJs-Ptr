@@ -1,6 +1,7 @@
 import React from 'react'
 
 function Userlist() {
+    // can get from other file
     let Data=[
         {
             fname:"Shri",
@@ -19,6 +20,7 @@ function Userlist() {
     <div>
         Userlist
         <br/>
+        {/* can make this props */}
         {Data.map(({fname,age})=>{
             return(
                 <div>
