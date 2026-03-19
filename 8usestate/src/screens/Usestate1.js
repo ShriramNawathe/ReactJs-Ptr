@@ -15,7 +15,7 @@ function Usestate1() {
 console.log(email);
   return (
     <div>
-      <p>Usestate1</p>
+      <p>Usestate1 Email react usestate and html value onChange</p>
       <p>............................................................</p>
       <br />
       <form>
@@ -32,6 +32,7 @@ console.log(email);
         <br />
         <button onClick={handleSubmit}>Submit</button>
       </form>
+       <p>.............................................................................................</p>
     </div>
   );
 }
