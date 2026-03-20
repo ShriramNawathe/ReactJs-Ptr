@@ -1,5 +1,6 @@
 import Useeffect from "./screens/Useeffect";
-// import Useeffect1 from "./screens/Useeffect1";
+import Useeffect1 from "./screens/Useeffect1";
+import Useeffect2main from "./screens/Useeffect2main";
 
 function App() {
   return (
@@ -9,7 +10,9 @@ function App() {
     <br/>
     <Useeffect/>
     <br/>
-    {/* <Useeffect1 /> */}
+    <Useeffect1 />
+    <br/>
+    <Useeffect2main/>
    </div>
   );
 }

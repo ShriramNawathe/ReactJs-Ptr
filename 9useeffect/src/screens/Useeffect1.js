@@ -14,11 +14,12 @@ function Useeffect1() {
   console.log(password);
 
   //useeffect
-  const [age,setAge]=useState();
+  const [age,setAge]=useState();//useState(13) prefer over setAge(13)
   // setAge(13);//Too many re-renders
-  // useEffect(()=>{},[])
+  // useEffect(()=>{},[])//syntax
+
   useEffect(()=>{
-    setAge(13);
+    setAge(13);////to many issue will take place//useState(13) prefer over setAge(13)
     console.log("Age:",age);//},[age]) then it will print in console
   // },[])
   },[age])
