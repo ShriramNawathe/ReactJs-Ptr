@@ -6,7 +6,7 @@ import Useeffect3CR from "./screens/Useeffect3CR";
 function App() {
   return (
    <div>
-    {/* <p>UseEffect understand</p>
+    <p>UseEffect understand</p>
     <p>..............................................................................</p>
     <br/>
     <Useeffect/>
@@ -14,7 +14,7 @@ function App() {
     <Useeffect1 />
     <br/>
     <Useeffect2main/>
-    <br/> */}
+    <br/>
     <Useeffect3CR/>
    </div>
   );
