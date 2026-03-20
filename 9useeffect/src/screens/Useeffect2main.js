@@ -23,6 +23,7 @@ function Useeffect2main() {
     <div>
         <p>..............................................................................</p>
         <p>Useeffect2main. default age is 13 increaseAge then only use form via conditional rendeering</p>
+        <p>useEffect conditional rendering when default age 13 is increased to 18</p>
         {/* {?():else()}; */}
         {/* conditional rendeering */}
         <form>
