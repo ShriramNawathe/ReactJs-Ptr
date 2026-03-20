@@ -26,6 +26,7 @@ function Useeffect() {
     <div>
       <h1>Age :{age}</h1>
       <button onClick={increaseAge}>Increase Age</button>
+      <p>...............................................................................</p>
     </div>
   )
 }
