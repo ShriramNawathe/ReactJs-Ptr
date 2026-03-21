@@ -17,6 +17,7 @@ function Useeffect2main() {
     setAge(age+1);
   }
   useEffect(()=>{
+    // setAge(13)
     console.log("after increaseAge clicked age++ :",age);
   },[age])
   return (
