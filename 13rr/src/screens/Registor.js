@@ -17,6 +17,8 @@ function Registor() {
         <Link to="/about">Take me to about page</Link>
         <hr/>
         <Link to="/user-list"><button>take me to userlist3.js</button></Link>
+        <br/>
+        
     </div>
   )
 }
