@@ -14,7 +14,7 @@ function Counter3Disabled() {
         <div>
           <h1>Count: {count}</h1>
           <button onClick={dec}>Decrease</button>
-          <button onClick={inc} >Increase</button>
+          <button onClick={inc}>Increase</button>
         </div>
       ) : (
          <div>
