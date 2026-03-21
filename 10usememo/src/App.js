@@ -1,4 +1,5 @@
 import Usememo from "./screens/Usememo";
+import Usememo1 from "./screens/Usememo1";
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
       <Usememo/>
       <p>........................................</p>
       <br/>
+      <Usememo1/>
     </div>
   );
 }

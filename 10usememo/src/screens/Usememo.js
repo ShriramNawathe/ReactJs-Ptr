@@ -6,6 +6,8 @@ const expensiveCalculation=(num)=>{
     num=num+1;
   }
   return num;
+
+  // api call and in longer complicate calculation takes time . so other components also takes time to complte for that un wanted delay removal over other components we use uesMemo
 }
 
 
@@ -26,6 +28,7 @@ function Usememo() {
   // const calculation=expensiveCalculation(count);
   //after this line throughout code all code takes 2-3 sec delay both adding todo and in counter as well
   const calculation=useMemo(()=>expensiveCalculation(count),[count])
+  // memoization - we are storing it as cache in calculation variable
   return (
     <div>
         <p>Usememo</p>
