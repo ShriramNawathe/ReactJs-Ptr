@@ -1,8 +1,33 @@
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import About from "./screens/About";
+import Registor from "./screens/Registor";
+import Userlist3 from "./screens/Userlist3";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <div>Hello World App.js</div>
+  },
+  {
+  path: "/about",
+  element: <About/>
+},
+
+  {
+    path: "/registor",
+    element: <Registor/>
+  },
+  {
+    path:"/user-list",
+    element: <Userlist3/>
+  }
+  
+]);
 
 function App() {
   return (
     <div>
-      hi
+      <RouterProvider router={router} />
     </div>
   );
 }
